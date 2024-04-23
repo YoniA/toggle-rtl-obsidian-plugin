@@ -1,11 +1,10 @@
 {
 	"id": "toggle-rtl-plugin",
 	"name": "Toggle RTL Plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Toggle RTL mode using command or ribbon action",
 	"author": "Yoni Asulin",
 	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
 	"isDesktopOnly": false
 }
