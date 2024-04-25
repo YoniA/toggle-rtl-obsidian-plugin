@@ -9,7 +9,7 @@ export default class ToggleRTLPlugin extends Plugin {
 		// toggle by command action
     this.addCommand({
       id: "toggle-right-to-left",
-      name: "Toggle RTL mode",
+      name: "Toggle",
       callback: () => toggleRTL()
     });
 
