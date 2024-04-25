@@ -1,7 +1,7 @@
 {
 	"id": "toggle-rtl-mode",
 	"name": "Toggle RTL mode",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.15.0",
 	"description": "Toggle RTL mode using command or ribbon action",
 	"author": "Yoni Asulin",
