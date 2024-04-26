@@ -10,15 +10,14 @@ export default class ToggleRTLPlugin extends Plugin {
     this.addCommand({
       id: "toggle-right-to-left",
       name: "Toggle",
-      callback: () => toggleRTL()
+      callback: () => this.toggleRTL()
     });
 
-
 		// toggle by ribbon action
-		this.addRibbonIcon("arrow-right-left", "Toggle RTL mode", () => toggleRTL());
+		this.addRibbonIcon("arrow-right-left", "Toggle RTL mode", () => this.toggleRTL());
 	}
-}
 
-function toggleRTL() {
-	this.app.vault.setConfig('rightToLeft', !this.app.vault.getConfig('rightToLeft'));
+  toggleRTL() {
+    this.app.vault.setConfig('rightToLeft', !this.app.vault.getConfig('rightToLeft'));
+  }
 }
