@@ -1,4 +1,4 @@
-# Toggle RTL Plugin
+# Toggle RTL mode
 
 A simple plugin to toggle RTL (right-to-left) mode.
 
@@ -14,7 +14,7 @@ After the plugin is installed, a new [arrow-right-left](https://lucide.dev/icons
 You can toggle RTL mode by either clicking the ribbon icon, or by executing a command action from the Command Palette:
 
 1. Type `Ctrl + P` (or `Command + P` on macOS) to open the Command Palette
-2. Type `rtl` and find the `Toggle RTL Plugin: Toggle RTL mode` command
+2. Type `rtl` and find the `Toggle RTL mode: Toggle` command
 3. press `Enter` to toggle
 
 
@@ -22,4 +22,4 @@ You can toggle RTL mode by either clicking the ribbon icon, or by executing a co
 
 It is recommended to assign a hotkey to the plugin, and then toggle RTL mode using a keybord shortcut.
 
-Go to `Community plugins --> Toggle RTL Plugin --> Hotkeys` and assign your favorite key combination.
+Go to `Community plugins --> Toggle RTL mode --> Hotkeys` and assign your favorite key combination.
