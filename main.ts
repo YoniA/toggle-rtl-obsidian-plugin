@@ -18,6 +18,7 @@ export default class ToggleRTLPlugin extends Plugin {
 	}
 
   toggleRTL() {
+    // @ts-expect-error
     this.app.vault.setConfig('rightToLeft', !this.app.vault.getConfig('rightToLeft'));
   }
 }
